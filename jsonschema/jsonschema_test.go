@@ -10,10 +10,10 @@ import (
 	"github.com/go-faster/yaml"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen/internal/testutil"
-	"github.com/ogen-go/ogen/jsonpointer"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
+	"github.com/istforks/ogen/internal/testutil"
+	"github.com/istforks/ogen/jsonpointer"
+	"github.com/istforks/ogen/jsonschema"
+	"github.com/istforks/ogen/location"
 )
 
 //go:embed _testdata

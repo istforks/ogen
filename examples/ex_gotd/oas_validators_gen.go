@@ -7,7 +7,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/validate"
+	"github.com/istforks/ogen/validate"
 )
 
 func (s *AddStickerToSet) Validate() error {

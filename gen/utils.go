@@ -6,9 +6,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
+	"github.com/istforks/ogen/gen/ir"
+	"github.com/istforks/ogen/jsonschema"
+	"github.com/istforks/ogen/location"
 )
 
 func unreachable(v any) string {

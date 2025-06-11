@@ -5,9 +5,9 @@ package api
 import (
 	"net/http"
 
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
+	"github.com/istforks/ogen/middleware"
+	"github.com/istforks/ogen/ogenerrors"
+	"github.com/istforks/ogen/uri"
 )
 
 // AliveParams is parameters of alive operation.

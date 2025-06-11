@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap/zaptest"
 
-	"github.com/ogen-go/ogen/gen/genfs"
-	"github.com/ogen-go/ogen/jsonpointer"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/istforks/ogen/gen/genfs"
+	"github.com/istforks/ogen/jsonpointer"
+	"github.com/istforks/ogen/jsonschema"
 )
 
 //go:embed _testdata/jsonschema

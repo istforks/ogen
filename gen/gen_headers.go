@@ -1,8 +1,8 @@
 package gen
 
 import (
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/istforks/ogen/gen/ir"
+	"github.com/istforks/ogen/openapi"
 )
 
 func (g *Generator) generateHeaders(

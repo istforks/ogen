@@ -1,5 +1,5 @@
 {{ define "request_decoders" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.TemplateConfig*/ -}}
+{{- /*gotype: github.com/istforks/ogen/gen.TemplateConfig*/ -}}
 {{ template "header" $ }}
 
 {{- if $.PathsServerEnabled }}
@@ -17,7 +17,7 @@
 {{ end }}
 
 {{ define "request_decoders/operation" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen/ir.Operation*/ -}}{{ $op := $ }}
+{{- /*gotype: github.com/istforks/ogen/gen/ir.Operation*/ -}}{{ $op := $ }}
 func (s *{{ if $op.WebhookInfo }}Webhook{{ end }}Server) decode{{ $op.Name }}Request(r *http.Request) (
 	req {{ $op.Request.GoType }},
 	close func() error,
@@ -172,7 +172,7 @@ func (s *{{ if $op.WebhookInfo }}Webhook{{ end }}Server) decode{{ $op.Name }}Req
 {{ end }}
 
 {{- define "decode_form_request" }}
-{{- /*gotype: github.com/ogen-go/ogen/gen.Elem*/ -}}
+{{- /*gotype: github.com/istforks/ogen/gen.Elem*/ -}}
 {{- $t := $.Type }}
 {{- $v := $.Var }}
 

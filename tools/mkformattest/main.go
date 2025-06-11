@@ -9,9 +9,9 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/gen"
-	"github.com/ogen-go/ogen/gen/ir"
+	"github.com/istforks/ogen"
+	"github.com/istforks/ogen/gen"
+	"github.com/istforks/ogen/gen/ir"
 )
 
 func generateSpec() *ogen.Spec {

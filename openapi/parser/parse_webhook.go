@@ -3,10 +3,10 @@ package parser
 import (
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/internal/xmaps"
-	"github.com/ogen-go/ogen/jsonpointer"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/istforks/ogen"
+	"github.com/istforks/ogen/internal/xmaps"
+	"github.com/istforks/ogen/jsonpointer"
+	"github.com/istforks/ogen/openapi"
 )
 
 func (p *parser) parseWebhook(name string, item *ogen.PathItem, ctx *jsonpointer.ResolveCtx) (openapi.Webhook, error) {

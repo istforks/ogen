@@ -7,10 +7,10 @@ import (
 	"github.com/go-faster/errors"
 	"go.uber.org/zap"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/naming"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
+	"github.com/istforks/ogen/gen/ir"
+	"github.com/istforks/ogen/internal/naming"
+	"github.com/istforks/ogen/jsonschema"
+	"github.com/istforks/ogen/location"
 )
 
 type refNamer func(ref jsonschema.Ref) (string, error)

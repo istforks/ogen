@@ -9,10 +9,10 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/jsonpointer"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
+	"github.com/istforks/ogen/gen/ir"
+	"github.com/istforks/ogen/jsonpointer"
+	"github.com/istforks/ogen/jsonschema"
+	"github.com/istforks/ogen/location"
 )
 
 func TestSchemaGenAnyWarn(t *testing.T) {

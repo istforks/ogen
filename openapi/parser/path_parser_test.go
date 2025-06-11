@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/istforks/ogen/jsonschema"
+	"github.com/istforks/ogen/openapi"
 )
 
 func TestPathParser(t *testing.T) {

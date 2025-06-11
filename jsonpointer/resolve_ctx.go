@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/location"
+	"github.com/istforks/ogen/location"
 )
 
 // RefKey is JSON Reference key.

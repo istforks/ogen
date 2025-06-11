@@ -16,9 +16,9 @@ import (
 	"golang.org/x/sync/errgroup"
 	"golang.org/x/tools/imports"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/xmaps"
-	"github.com/ogen-go/ogen/ogenregex"
+	"github.com/istforks/ogen/gen/ir"
+	"github.com/istforks/ogen/internal/xmaps"
+	"github.com/istforks/ogen/ogenregex"
 )
 
 type TemplateConfig struct {

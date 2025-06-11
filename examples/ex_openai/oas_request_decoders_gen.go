@@ -11,11 +11,11 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/conv"
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/istforks/ogen/conv"
+	ht "github.com/istforks/ogen/http"
+	"github.com/istforks/ogen/ogenerrors"
+	"github.com/istforks/ogen/uri"
+	"github.com/istforks/ogen/validate"
 )
 
 func (s *Server) decodeCreateAnswerRequest(r *http.Request) (

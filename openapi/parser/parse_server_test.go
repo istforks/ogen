@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/openapi/parser"
+	"github.com/istforks/ogen"
+	"github.com/istforks/ogen/openapi/parser"
 )
 
 func TestServerURL(t *testing.T) {

@@ -8,10 +8,10 @@ import (
 
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/json"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
+	"github.com/istforks/ogen/json"
+	"github.com/istforks/ogen/middleware"
+	"github.com/istforks/ogen/ogenerrors"
+	"github.com/istforks/ogen/uri"
 )
 
 // DefaultParams is parameters of default operation.

@@ -11,8 +11,8 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/uri"
+	"github.com/istforks/ogen/conv"
+	"github.com/istforks/ogen/uri"
 )
 
 func encodeConnectCoreV1DeleteNamespacedPodProxyResponse(response ConnectCoreV1DeleteNamespacedPodProxyRes, w http.ResponseWriter, span trace.Span) error {

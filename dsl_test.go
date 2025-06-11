@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/jsonschema"
+	"github.com/istforks/ogen"
+	"github.com/istforks/ogen/gen/ir"
+	"github.com/istforks/ogen/jsonschema"
 )
 
 const (

@@ -15,12 +15,12 @@ import (
 	semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ogen-go/ogen/conv"
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/otelogen"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/istforks/ogen/conv"
+	ht "github.com/istforks/ogen/http"
+	"github.com/istforks/ogen/ogenerrors"
+	"github.com/istforks/ogen/otelogen"
+	"github.com/istforks/ogen/uri"
+	"github.com/istforks/ogen/validate"
 )
 
 func trimTrailingSlashes(u *url.URL) {

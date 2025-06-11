@@ -11,9 +11,9 @@ import (
 	"github.com/go-faster/yaml"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/istforks/ogen"
+	"github.com/istforks/ogen/jsonschema"
+	"github.com/istforks/ogen/openapi"
 )
 
 var testRootURL = &url.URL{

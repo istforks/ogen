@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/istforks/ogen"
+	"github.com/istforks/ogen/openapi"
 )
 
 func fromOpenapiInfo(info openapi.Info) ogen.Info {

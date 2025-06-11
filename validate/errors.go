@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ogen-go/ogen/ogenregex"
+	"github.com/istforks/ogen/ogenregex"
 
 	"github.com/go-faster/errors"
 )

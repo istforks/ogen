@@ -10,9 +10,9 @@ import (
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"
 
-	"github.com/ogen-go/ogen/conv"
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/uri"
+	"github.com/istforks/ogen/conv"
+	ht "github.com/istforks/ogen/http"
+	"github.com/istforks/ogen/uri"
 )
 
 func encodeCreatePetsResponse(response *CreatePetsCreated, w http.ResponseWriter, span trace.Span) error {

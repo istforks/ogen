@@ -13,8 +13,8 @@ import (
 	"github.com/go-faster/jx"
 	"github.com/google/uuid"
 
-	ht "github.com/ogen-go/ogen/http"
-	"github.com/ogen-go/ogen/json"
+	ht "github.com/istforks/ogen/http"
+	"github.com/istforks/ogen/json"
 )
 
 func encodeTestQueryParameterRequest(

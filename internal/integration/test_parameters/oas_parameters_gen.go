@@ -9,11 +9,11 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/conv"
-	"github.com/ogen-go/ogen/middleware"
-	"github.com/ogen-go/ogen/ogenerrors"
-	"github.com/ogen-go/ogen/uri"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/istforks/ogen/conv"
+	"github.com/istforks/ogen/middleware"
+	"github.com/istforks/ogen/ogenerrors"
+	"github.com/istforks/ogen/uri"
+	"github.com/istforks/ogen/validate"
 )
 
 // ComplicatedParameterNameGetParams is parameters of GET /complicatedParameterName operation.

@@ -8,9 +8,9 @@ import (
 	"github.com/go-faster/errors"
 	"github.com/go-faster/jx"
 
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/ogenregex"
-	"github.com/ogen-go/ogen/validate"
+	"github.com/istforks/ogen/jsonschema"
+	"github.com/istforks/ogen/ogenregex"
+	"github.com/istforks/ogen/validate"
 )
 
 type Validators struct {

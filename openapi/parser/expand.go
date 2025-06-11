@@ -8,10 +8,10 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen"
-	"github.com/ogen-go/ogen/jsonschema"
-	"github.com/ogen-go/ogen/location"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/istforks/ogen"
+	"github.com/istforks/ogen/jsonschema"
+	"github.com/istforks/ogen/location"
+	"github.com/istforks/ogen/openapi"
 )
 
 // Expand generates an expanded ogen.Spec from given api.

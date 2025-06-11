@@ -2,25 +2,25 @@
 <img width="256" height="256" src="_logo/logo.svg" alt="ogen svg logo">
 </p>
 
-# ogen [![Go Reference](https://img.shields.io/badge/go-pkg-00ADD8)](https://pkg.go.dev/github.com/ogen-go/ogen#section-documentation) [![codecov](https://img.shields.io/codecov/c/github/ogen-go/ogen?label=cover)](https://codecov.io/gh/ogen-go/ogen) [![stable](https://img.shields.io/badge/-stable-brightgreen)](https://go-faster.org/docs/projects/status#stable)
+# ogen [![Go Reference](https://img.shields.io/badge/go-pkg-00ADD8)](https://pkg.go.dev/github.com/istforks/ogen#section-documentation) [![codecov](https://img.shields.io/codecov/c/github/ogen-go/ogen?label=cover)](https://codecov.io/gh/ogen-go/ogen) [![stable](https://img.shields.io/badge/-stable-brightgreen)](https://go-faster.org/docs/projects/status#stable)
 
 OpenAPI v3 Code Generator for Go.
 
 - [Getting started](https://ogen.dev/docs/intro)
 - [Sample project](https://github.com/ogen-go/example)
-- [Security policy](https://github.com/ogen-go/ogen/blob/-/SECURITY.md)
+- [Security policy](https://github.com/istforks/ogen/blob/-/SECURITY.md)
 - [Telegram group `@ogen_dev`](https://t.me/ogen_dev)
 
 # Install
 
 ```console
-go install -v github.com/ogen-go/ogen/cmd/ogen@latest
+go install -v github.com/istforks/ogen/cmd/ogen@latest
 ```
 
 # Usage
 
 ```go
-//go:generate go run github.com/ogen-go/ogen/cmd/ogen --target target/dir -package api --clean schema.json
+//go:generate go run github.com/istforks/ogen/cmd/ogen --target target/dir -package api --clean schema.json
 ```
 
 or using container:
@@ -380,5 +380,5 @@ func (s *Error) Decode(d *jx.Decoder) error {
 
 - [Getting started](https://ogen.dev/docs/intro)
 - [Sample project](https://github.com/ogen-go/example)
-- [Security policy](https://github.com/ogen-go/ogen/blob/-/SECURITY.md)
+- [Security policy](https://github.com/istforks/ogen/blob/-/SECURITY.md)
 - [Telegram chat `@ogen_dev`](https://t.me/ogen_dev)

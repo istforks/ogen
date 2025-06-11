@@ -6,9 +6,9 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/gen/ir"
-	"github.com/ogen-go/ogen/internal/bitset"
-	"github.com/ogen-go/ogen/openapi"
+	"github.com/istforks/ogen/gen/ir"
+	"github.com/istforks/ogen/internal/bitset"
+	"github.com/istforks/ogen/openapi"
 )
 
 func (g *Generator) generateSecurityAPIKey(

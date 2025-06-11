@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-faster/errors"
 
-	"github.com/ogen-go/ogen/internal/httpcookie"
+	"github.com/istforks/ogen/internal/httpcookie"
 )
 
 type CookieEncoder struct {
